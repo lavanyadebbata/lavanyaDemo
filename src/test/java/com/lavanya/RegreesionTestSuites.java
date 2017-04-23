@@ -27,6 +27,12 @@ public class RegreesionTestSuites extends BaseTest {
 
 
     @Test
+    public void djjdjd(){
+
+    }
+
+
+    @Test
     public void basketTest() {
         homepage.searchProduct("nike");
         listingPage.selectAnyProduct();
