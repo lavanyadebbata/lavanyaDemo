@@ -21,7 +21,6 @@ public class ProductListingPage extends BaseMain{
 
         List<WebElement> allProducts = driver.findElements(By.cssSelector(".row.no-gutter"));
         allProducts.get(1).click();
-        //sleep(20000);
     }
 
     public void selectLow2HighFromSortBy() {

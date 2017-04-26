@@ -2,19 +2,11 @@ package com.lavanya;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.google.common.collect.Ordering;
 
-/**
- * Created by maheshreddy on 07/04/2017.
- */
 public class RegreesionTestSuites extends BaseTest {
 
 
@@ -24,13 +16,6 @@ public class RegreesionTestSuites extends BaseTest {
     MyTrollyPage trollyPage=new MyTrollyPage();
     HeaderPage headerPage =new HeaderPage();
     BigEventPage eventPage=new BigEventPage();
-
-
-    @Test
-    public void djjdjd(){
-
-    }
-
 
     @Test
     public void basketTest() {
